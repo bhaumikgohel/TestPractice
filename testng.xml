@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
+<suite name="Check Login and Releted Functionalities" >
+	
+<listeners>
+	<listener class-name="Reports.MyListeners"></listener>
+</listeners>
+	
+  <test name="Check Functionality"> 
+    <classes >  
+     <class name="Testcase.HomePageTest"></class>
+      <class name="Testcase.LoginPageTest"></class>
+      <class name="Testcase.ForgotPasswordTest"></class>
+       <class name="Testcase.LoginwithSocialMedia"></class>
+    </classes> 
+  </test>       
+</suite>  
