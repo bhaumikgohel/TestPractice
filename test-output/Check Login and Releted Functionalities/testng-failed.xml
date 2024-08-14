@@ -16,20 +16,11 @@
       </class> <!-- Testcase.LoginPageTest -->
       <class name="Testcase.ForgotPasswordTest">
         <methods>
-          <include name="Verify_Valid_Emailid"/>
+          <include name="Verify_Valid_Emailid_Test"/>
           <include name="Setup"/>
           <include name="Terminate"/>
         </methods>
       </class> <!-- Testcase.ForgotPasswordTest -->
-      <class name="Testcase.VerifyCodePageTest">
-        <methods>
-          <include name="Verify_Blank_Validation"/>
-          <include name="Setup"/>
-          <include name="Terminate"/>
-          <include name="Verify_Resend_code_Functionality"/>
-          <include name="Verify_HomepageTitle"/>
-        </methods>
-      </class> <!-- Testcase.VerifyCodePageTest -->
       <class name="Testcase.LoginwithSocialMedia">
         <methods>
           <include name="Validate_Login_Using_socialMedia"/>
