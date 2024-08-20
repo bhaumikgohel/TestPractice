@@ -1,427 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T12:38:28 IST" name="Check Login and Releted Functionalities" finished-at="2024-08-14T12:41:59 IST" duration-ms="210102">
+  <suite started-at="2024-08-15T18:32:09 IST" name="Check Login and Releted Functionalities" finished-at="2024-08-15T18:32:30 IST" duration-ms="20207">
     <groups>
     </groups>
-    <test started-at="2024-08-14T12:38:28 IST" name="Check Functionality" finished-at="2024-08-14T12:41:59 IST" duration-ms="210102">
-      <class name="Testcase.ForgotPasswordTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:39:48 IST" name="Setup" finished-at="2024-08-14T12:39:59 IST" duration-ms="10423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_HomepageTitle_Test()[pri:1, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:39:59 IST" name="Verify_HomepageTitle_Test" finished-at="2024-08-14T12:39:59 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_HomepageTitle_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:39:59 IST" name="Terminate" finished-at="2024-08-14T12:40:00 IST" duration-ms="1037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:00 IST" name="Setup" finished-at="2024-08-14T12:40:11 IST" duration-ms="11100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Blank_Validation_Test()[pri:2, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:11 IST" name="Verify_Blank_Validation_Test" finished-at="2024-08-14T12:40:11 IST" duration-ms="342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Blank_Validation_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:11 IST" name="Terminate" finished-at="2024-08-14T12:40:12 IST" duration-ms="1146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:12 IST" name="Setup" finished-at="2024-08-14T12:40:23 IST" duration-ms="10632" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Invalid_Emailid_Test()[pri:3, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:23 IST" name="Verify_Invalid_Emailid_Test" finished-at="2024-08-14T12:40:23 IST" duration-ms="481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Invalid_Emailid_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:23 IST" name="Terminate" finished-at="2024-08-14T12:40:25 IST" duration-ms="1211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:25 IST" name="Setup" finished-at="2024-08-14T12:40:34 IST" duration-ms="9821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Valid_Emailid_Test()[pri:4, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:34 IST" name="Verify_Valid_Emailid_Test" finished-at="2024-08-14T12:40:55 IST" duration-ms="20109" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Forgot password?']"}
-  (Session info: chrome=127.0.6533.100)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14b7cc46a89661a886778aeac7adf87e, findElement {using=xpath, value=//a[normalize-space()='Forgot password?']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63095/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14b7cc46a89661a886778aeac7adf87e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Forgot password?']"}
-  (Session info: chrome=127.0.6533.100)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14b7cc46a89661a886778aeac7adf87e, findElement {using=xpath, value=//a[normalize-space()='Forgot password?']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63095/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14b7cc46a89661a886778aeac7adf87e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at Pages.ForgotPassword.Validate_validemailid(ForgotPassword.java:81)
-at Testcase.ForgotPasswordTest.Verify_Valid_Emailid_Test(ForgotPasswordTest.java:59)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Valid_Emailid_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:55 IST" name="Terminate" finished-at="2024-08-14T12:40:56 IST" duration-ms="1432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:40:56 IST" name="Setup" finished-at="2024-08-14T12:41:06 IST" duration-ms="10050" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_code_Test()[pri:5, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:41:06 IST" name="Verify_code_Test" finished-at="2024-08-14T12:41:09 IST" duration-ms="2691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_code_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:41:09 IST" name="Terminate" finished-at="2024-08-14T12:41:10 IST" duration-ms="1230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:41:10 IST" name="Setup" finished-at="2024-08-14T12:41:20 IST" duration-ms="10187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_ResendCode_Test()[pri:6, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:41:20 IST" name="Verify_ResendCode_Test" finished-at="2024-08-14T12:41:24 IST" duration-ms="3901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_ResendCode_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.ForgotPasswordTest@82de64a]" started-at="2024-08-14T12:41:24 IST" name="Terminate" finished-at="2024-08-14T12:41:25 IST" duration-ms="1379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- Testcase.ForgotPasswordTest -->
+    <test started-at="2024-08-15T18:32:09 IST" name="Check Functionality" finished-at="2024-08-15T18:32:30 IST" duration-ms="20207">
       <class name="Testcase.HomePageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:29 IST" name="Setup" finished-at="2024-08-14T12:38:42 IST" duration-ms="13122" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:10 IST" name="Setup" finished-at="2024-08-15T18:32:19 IST" duration-ms="9111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_HomepageTitle()[pri:1, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:42 IST" name="Verify_HomepageTitle" finished-at="2024-08-14T12:38:43 IST" duration-ms="68" status="PASS">
+        <test-method signature="Verify_HomepageTitle()[pri:1, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:19 IST" name="Verify_HomepageTitle" finished-at="2024-08-15T18:32:19 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_HomepageTitle -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:43 IST" name="Terminate" finished-at="2024-08-14T12:38:44 IST" duration-ms="1519" status="PASS">
+        <test-method is-config="true" signature="Terminate(org.testng.ITestResult)[pri:0, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:20 IST" name="Terminate" finished-at="2024-08-15T18:32:21 IST" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_HomepageTitle status=SUCCESS method=HomePageTest.Verify_HomepageTitle()[pri:1, instance:Testcase.HomePageTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:44 IST" name="Setup" finished-at="2024-08-14T12:38:50 IST" duration-ms="6398" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:21 IST" name="Setup" finished-at="2024-08-15T18:32:27 IST" duration-ms="6237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_SigninLink()[pri:2, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:50 IST" name="Verify_SigninLink" finished-at="2024-08-14T12:38:52 IST" duration-ms="1716" status="PASS">
+        <test-method signature="Verify_SigninLink()[pri:2, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:27 IST" name="Verify_SigninLink" finished-at="2024-08-15T18:32:28 IST" duration-ms="1454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_SigninLink -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.HomePageTest@614ca7df]" started-at="2024-08-14T12:38:52 IST" name="Terminate" finished-at="2024-08-14T12:38:54 IST" duration-ms="1436" status="PASS">
+        <test-method is-config="true" signature="Terminate(org.testng.ITestResult)[pri:0, instance:Testcase.HomePageTest@7205765b]" started-at="2024-08-15T18:32:29 IST" name="Terminate" finished-at="2024-08-15T18:32:30 IST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_SigninLink status=SUCCESS method=HomePageTest.Verify_SigninLink()[pri:2, instance:Testcase.HomePageTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- Testcase.HomePageTest -->
-      <class name="Testcase.LoginPageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:38:54 IST" name="Setup" finished-at="2024-08-14T12:39:01 IST" duration-ms="7692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_HomepageTitle()[pri:1, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:01 IST" name="Verify_HomepageTitle" finished-at="2024-08-14T12:39:02 IST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_HomepageTitle -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:02 IST" name="Terminate" finished-at="2024-08-14T12:39:03 IST" duration-ms="1354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:03 IST" name="Setup" finished-at="2024-08-14T12:39:12 IST" duration-ms="8991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Blank_Validation()[pri:2, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:12 IST" name="Verify_Blank_Validation" finished-at="2024-08-14T12:39:12 IST" duration-ms="579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Blank_Validation -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:12 IST" name="Terminate" finished-at="2024-08-14T12:39:14 IST" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:14 IST" name="Setup" finished-at="2024-08-14T12:39:23 IST" duration-ms="9058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Invalid_Validation()[pri:3, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:23 IST" name="Verify_Invalid_Validation" finished-at="2024-08-14T12:39:23 IST" duration-ms="419" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at Pages.LoginPage.Validate_password_validation(LoginPage.java:60)
-at Testcase.LoginPageTest.Verify_Invalid_Validation(LoginPageTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Invalid_Validation -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:23 IST" name="Terminate" finished-at="2024-08-14T12:39:24 IST" duration-ms="1448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:24 IST" name="Setup" finished-at="2024-08-14T12:39:34 IST" duration-ms="9451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_Valid_Credentials()[pri:4, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:34 IST" name="Verify_Valid_Credentials" finished-at="2024-08-14T12:39:34 IST" duration-ms="346" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at Pages.LoginPage.Validate_with_ValidCredentials(LoginPage.java:75)
-at Testcase.LoginPageTest.Verify_Valid_Credentials(LoginPageTest.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Valid_Credentials -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:34 IST" name="Terminate" finished-at="2024-08-14T12:39:36 IST" duration-ms="1963" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:36 IST" name="Setup" finished-at="2024-08-14T12:39:45 IST" duration-ms="9181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Verify_forgotpasswordlink()[pri:5, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:45 IST" name="Verify_forgotpasswordlink" finished-at="2024-08-14T12:39:47 IST" duration-ms="1491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_forgotpasswordlink -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginPageTest@49049a04]" started-at="2024-08-14T12:39:47 IST" name="Terminate" finished-at="2024-08-14T12:39:48 IST" duration-ms="1357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- Testcase.LoginPageTest -->
-      <class name="Testcase.LoginwithSocialMedia">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcase.LoginwithSocialMedia@659499f1]" started-at="2024-08-14T12:41:25 IST" name="Setup" finished-at="2024-08-14T12:41:32 IST" duration-ms="6256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Validate_Login_Using_socialMedia()[pri:1, instance:Testcase.LoginwithSocialMedia@659499f1]" started-at="2024-08-14T12:41:32 IST" name="Validate_Login_Using_socialMedia" finished-at="2024-08-14T12:41:53 IST" duration-ms="21233" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]"}
-  (Session info: chrome=127.0.6533.100)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e932934736e49b800eee10442475cfb, findElement {using=xpath, value=//*[@id="container"]/div/div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63228}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63228/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e932934736e49b800eee10442475cfb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]"}
-  (Session info: chrome=127.0.6533.100)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e932934736e49b800eee10442475cfb, findElement {using=xpath, value=//*[@id="container"]/div/div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63228}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63228/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e932934736e49b800eee10442475cfb
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at Pages.HomePage.Validate_Login_with_Social_Media(HomePage.java:61)
-at Testcase.LoginwithSocialMedia.Validate_Login_Using_socialMedia(LoginwithSocialMedia.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_Login_Using_socialMedia -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:Testcase.LoginwithSocialMedia@659499f1]" started-at="2024-08-14T12:41:53 IST" name="Terminate" finished-at="2024-08-14T12:41:59 IST" duration-ms="5553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- Testcase.LoginwithSocialMedia -->
     </test> <!-- Check Functionality -->
   </suite> <!-- Check Login and Releted Functionalities -->
 </testng-results>

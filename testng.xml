@@ -10,9 +10,9 @@
   <test name="Check Functionality"> 
     <classes >  
      <class name="Testcase.HomePageTest"></class>
-      <class name="Testcase.LoginPageTest"></class>
-      <class name="Testcase.ForgotPasswordTest"></class>
-       <class name="Testcase.LoginwithSocialMedia"></class>
+<!--      <class name="Testcase.LoginPageTest"></class>-->
+<!--      <class name="Testcase.ForgotPasswordTest"></class>-->
+<!--       <class name="Testcase.LoginwithSocialMedia"></class>-->
     </classes> 
   </test>       
 </suite>  

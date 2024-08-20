@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.LoginwithSocialMedia">
+      <class name="Testcase.HomePageTest">
         <methods>
-          <include name="Validate_Login_Using_socialMedia"/>
           <include name="Terminate"/>
           <include name="Setup"/>
+          <include name="Verify_SigninLink"/>
         </methods>
-      </class> <!-- Testcase.LoginwithSocialMedia -->
+      </class> <!-- Testcase.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

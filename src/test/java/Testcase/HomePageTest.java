@@ -1,13 +1,25 @@
 package Testcase;
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.relevantcodes.extentreports.LogStatus;
 
 import Base.TestBase;
 import Pages.HomePage;
 import Pages.LoginPage;
+import Reports.MyListeners;
+import utils.util;
+
 
 public class HomePageTest extends TestBase{
 
@@ -40,7 +52,8 @@ public class HomePageTest extends TestBase{
 	}
 	
 	@AfterMethod
-	public void Terminate() {
+	public void Terminate(ITestResult result) throws IOException {
+		
 		driver.quit();
 	}
 }

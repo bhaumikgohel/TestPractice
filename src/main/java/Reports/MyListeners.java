@@ -1,5 +1,8 @@
 package Reports;
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -10,12 +13,14 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class MyListeners implements ITestListener{
+import Base.TestBase;
+import utils.util;
 
+public class MyListeners implements ITestListener{
 	
-	ExtentSparkReporter UI;
-	ExtentReports common;
-	ExtentTest test;
+	public static ExtentSparkReporter UI;
+	public static ExtentReports common;
+	public static ExtentTest test;
 	
 	 public void onStart(ITestContext context) {
 		 
@@ -37,16 +42,43 @@ public class MyListeners implements ITestListener{
 	 public void onTestSuccess(ITestResult result) {
 		  
 		 test = common.createTest(result.getName());
-		 test.log(Status.PASS, "Test Case is Pass "+ result.getName());
+//		 test.log(Status.PASS, "Test Case is Pass "+ result.getName());
+		 
+		 if(result.getStatus()==ITestResult.SUCCESS) {
+				test.log(Status.PASS, "Test Casae is Pass" + result.getName());
+				
+				String screenshotdestination = null;
+				try {
+					screenshotdestination = util.getScreenshot(TestBase.driver, result.getName());
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				test.log(Status.PASS, screenshotdestination);
+			}
 		 
 		 
 		  }
 	 
 	 public void onTestFailure(ITestResult result) {
 		   
-		 test = common.createTest(result.getName());
-		 test.log(Status.FAIL,"Test Case is Fail "+ result.getName());
-		 test.log(Status.FAIL, "Test Case Fail due to "+ result.getName());
+//		 test = common.createTest(result.getName());
+//		 test.log(Status.FAIL,"Test Case is Fail "+ result.getName());
+//		 test.log(Status.FAIL, "Test Case Fail due to "+ result.getThrowable());
+//		 
+		 if(result.getStatus()==ITestResult.FAILURE) {
+				test.log(Status.FAIL, "Test Casae is Fail" + result.getName());
+				test.log(Status.FAIL, "Test Casae is Fail" + result.getThrowable());
+				
+				String screenshotdestination = null;
+				try {
+					screenshotdestination = util.getScreenshot(TestBase.driver, result.getName());
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				test.log(Status.FAIL, screenshotdestination);
+			}
 		 
 		  }
 	 
